@@ -1,0 +1,125 @@
+.post-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-author {
+    font-weight: bold;
+    color: #1c1e21;
+}
+
+.post-time {
+    font-size: 12px;
+    color: #65676b;
+}
+
+.post-text-content {
+    font-size: 16px;
+    color: #1c1e21;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.post-divider {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    color: #65676b;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+.action-button:hover {
+    background-color: #f0f2f5;
+}
+
+/* About Section Styles */
+
+.about-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.about-card h2 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    color: #1c1e21;
+}
+
+.about-section {
+    margin-bottom: 20px;
+}
+
+.about-section h3 {
+    font-size: 16px;
+    color: #65676b;
+    margin: 0 0 10px 0;
+}
+
+.about-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-section li {
+    font-size: 14px;
+    color: #1c1e21;
+    margin-bottom: 8px;
+}
+
+.detail-label {
+    font-weight: normal;
+    margin-right: 5px;
+}

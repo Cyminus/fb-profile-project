@@ -1,0 +1,70 @@
+.intro-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+     padding: 15px;
+    margin-bottom: 10px;
+}
+                
+.post-creator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-creator-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+                
+.whats-on-mind {
+    flex-grow: 1;
+    background-color: #f0f2f5;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #65676b;
+    font-size: 14px;
+}
+                
+.whats-on-mind:focus {
+    outline: none;
+}
+                
+.intro-card hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+}
+                
+.post-options {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+                
+.option {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #65676b;
+    flex-grow: 1;
+    padding: 10px;
+    font-weight: normal;
+}
+                
+.option:hover {
+    background-color: #f0f2f5;
+    border-radius: 6px;
+}
+                
+.option .icon {
+    font-size: 20px;
+}
